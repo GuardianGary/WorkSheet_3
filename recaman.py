@@ -1,6 +1,6 @@
 sequence = [0]
 L = int(input("Length of sequence: ")) # this should be your only input
-if L > 0:
+if L > 1:
     sequence.append(1)
 for i in range(2,L):
     newNum = sequence[i-1] - (i)
